@@ -1,0 +1,19 @@
+.container{
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.table{
+    display: block;
+    border: 2px solid black;
+    float: left;
+    width: 12%;
+    height: auto;
+    margin: 4%;
+}
+
+.dimImg{
+    width: 100%;
+}

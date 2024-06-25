@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+    <form action="creaplaylist" method="get" id="playListForm">
+    </form>
+    <label for="playlistname" class="form-label">Nome nuova Play List</label>
+      <input type="text" class="form-control" name="playlistname" id="playlistname" placeholder="nome play list">
+
+      <button  type="submit" id="btnCreaPlayList" class="btn btn-primary">Crea</button>
+      <a class="btn btn-success" href="http://localhost:9047/homePageUser" role="button">Torna indietro</a>
+    <div id="listaPlaylist"></div>
+      
+    
+    <main role="main" class="container">
+        <div class="starter-template">  
+              <div class="starter-template">
+                <table class="table table-hover">
+                    <span>Tutte le PlayList disponibili</span>
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome Play List</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                      
+                    </tbody>
+                  </table>
+              </div>
+            </main>
+
+
+    <script src="./js/scriptCreaPlayList.js"></script>
+
+
+</body>
+</html>
